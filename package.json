@@ -2,10 +2,8 @@
   "name": "clickygame",
   "version": "1.0.0",
   "description": "Challenge yourself to a React Memory game. Click on a food image to start the game.  The images will be reshuffled.  If your next click is a new image, you get a point.  If you forget, and click an image that you have already clicked... You lose the game.\r Choose 12 unique images in a row and you win the game!",
-  "homepage": "https://git.heroku.com/clickygameld.git",
   "main": "server.js",
   "scripts": {
-
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
@@ -14,16 +12,8 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lamanaml/ClickyGame.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lamanaml/ClickyGame/issues"
-  },
-  "homepage": "https://github.com/lamanaml/ClickyGame#readme",
   "dependencies": {
     "concurrently": "^5.0.0",
     "env": "0.0.2",
@@ -31,5 +21,14 @@
     "if-env": "^1.0.4",
     "nodemon": "^1.19.4",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamanaml/clicky.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lamanaml/clicky/issues"
+  },
+  "homepage": "https://github.com/lamanaml/clicky#readme"
 }
