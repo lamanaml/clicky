@@ -21,14 +21,5 @@
     "if-env": "^1.0.4",
     "nodemon": "^1.19.4",
     "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lamanaml/clicky.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lamanaml/clicky/issues"
-  },
-  "homepage": "https://github.com/lamanaml/clicky#readme"
+  }
 }
