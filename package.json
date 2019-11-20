@@ -18,8 +18,18 @@
     "concurrently": "^5.0.0",
     "env": "0.0.2",
     "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
     "if-env": "^1.0.4",
     "nodemon": "^1.19.4",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamanaml/clicky.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lamanaml/clicky/issues"
+  },
+  "homepage": "https://github.com/lamanaml/clicky"
 }
