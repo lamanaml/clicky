@@ -3,6 +3,7 @@ Challenge yourself to a React Memory game. Click on a food image to start the ga
 Choose 12 unique images in a row and you win the game!
 
 
+
 ![Clicky Game](clicky.jpg)
 
 
